@@ -87,7 +87,7 @@ const Resume = ({ result }) => {
             </p>
             {result.portfolio && (
               <p className="resumeTitle">
-                Portfolio: {result.github}
+                Portfolio: {result.portfolio}
               </p>)
             }
             
