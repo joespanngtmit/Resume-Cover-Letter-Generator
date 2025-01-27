@@ -3,14 +3,13 @@
 <!-- brief description of the app -->
 Resume Builder is used to create custom resumes and cover letters based on a given job description. It uses Google's Gemini AI to generate a resume content based on your personal information provided to the application. It also provides a resume preview and resume download functionality. The application also provides a custom written cover letter for the job description provided.  
 
-
 ### What it can do
 <!-- give app functions based on description -->
 - [x] Resume Template Generation
 - [x] Resume Content Generation
 - [x] Resume Preview
 - [x] Resume Download
-- [x] Cover Letter Copy to ClipBoard
+- [x] Cover Letter Generation
 
 ### Programs Needed to Run
 - [x] Nodes.js / NPM (https://nodejs.org/en/download)
@@ -28,8 +27,8 @@ Resume Builder is used to create custom resumes and cover letters based on a giv
 
 ### How to use
 <!-- give steps to use the app -->
-### Run Server side
 - [x] Clone the repo
+### Run Server side
 - [x] Navigate into Server Directory
 - [x] Install Dependencies with "npm i / nmp install"
 - [x] Run the server app using "npm start"
@@ -42,6 +41,7 @@ Resume Builder is used to create custom resumes and cover letters based on a giv
 
 ### Credits
 <!-- give credits to the developers -->
-- [x] [Gemini](https://ai.google.dev/gemini-api/docs)
-- [x] [Novu](https://dev.to/novu)
-- [x] [GoForProDev] (https://github.com/goforprodev/AI-resume-builder)
+- [x] [Gemini] (https://ai.google.dev/gemini-api/docs)
+- [x] [Novu] (https://dev.to/novu)
+- [x] [GoForProDev] (https://github.com/goforprodev/AI-resume-builder) I used this as a base to start
+- [x] [Joe Spann, Me] (https://github.com/joespanngtmit)

@@ -84,7 +84,7 @@ app.post("/resume/create", upload.single("headshotImage"), async (req, res) => {
   const newEntry = {
     id: generateID(),
     fullName,
-    image_url: `http://localhost:4000/uploads/headshot.png`,
+    image_url: `http://localhost:4000/uploads/headshot.jpg`,
     currentPosition,
     currentLength,
     currentTechnologies,
