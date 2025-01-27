@@ -71,10 +71,14 @@ button {
 .container {
   min-height: 100vh;
   padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .header {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
   min-height: 10vh;
   background-color: #e8e2e2;
   padding: 30px;
@@ -96,8 +100,7 @@ button {
   border-radius: 50%;
 }
 .resumeBody {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
   padding: 30px;
   min-height: 80vh;
   border: 1px solid #e0e0ea;
@@ -132,3 +135,5 @@ button {
 .totalWork{
   width: 100%;
 }
+
+
