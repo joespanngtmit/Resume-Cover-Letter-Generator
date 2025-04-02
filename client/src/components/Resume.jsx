@@ -90,6 +90,12 @@ const Resume = ({ result }) => {
                 Portfolio: {result.portfolio}
               </p>)
             }
+
+            {result.linked_in && (
+              <p className="resumeTitle">
+                LinkedIn: {result.linked_in}
+              </p>)
+            }
             
           </div>
           <div>
@@ -116,6 +122,15 @@ const Resume = ({ result }) => {
               <p className="resumeBodyContent" key={work.name}>
                 <span style={{ fontWeight: "bold" }}>{work.name}</span> -{" "}
                 {work.position}{" "}{work.time}
+              </p>
+            ))}
+          </div>
+          <div>
+            <h2 className="resumeBodyTitle">EDUCATION HISTORY</h2>
+            {result.education.map((school) => (
+              <p className="resumeBodyContent" key={school.name}>
+                <span style={{ fontWeight: "bold" }}>{school.name}</span> -{" "}
+                {school.major}{" "}{school.degree}{" "}{school.time}
               </p>
             ))}
           </div>
